@@ -4,10 +4,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { Welcome } from '../components';
-import Carousel from '../components/home/Carousel';
-import Headings from '../components/home/Headings';
-import ProductRow from '../components/product/ProductRow';
+import { Carousel, Headings, ProductRow, Welcome } from '../components';
 import styles from './styles/home.style';
 
 export default function Home() {
@@ -30,14 +27,12 @@ export default function Home() {
 				</View>
 			</View>
 
-			<ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+			<ScrollView>
 				<Welcome />
 				<Carousel />
 				<Headings />
 				<ProductRow />
 			</ScrollView>
-
-			<Text>Hello World</Text>
 		</SafeAreaView>
 	);
 }

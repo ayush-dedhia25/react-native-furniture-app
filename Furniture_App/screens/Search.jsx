@@ -2,6 +2,7 @@ import { Feather, Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import { TextInput, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+
 import { COLORS, SIZES } from '../constants/theme';
 import styles from './styles/search.style';
 
