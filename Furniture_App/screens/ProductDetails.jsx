@@ -5,7 +5,7 @@ import { Image, Text, TouchableOpacity, View } from 'react-native';
 import { COLORS, SIZES } from '../constants/theme';
 import styles from './styles/productDetails.style';
 
-export default function ProductDetails({ navigation }) {
+function ProductDetails({ navigation }) {
 	const [count, setCount] = useState(1);
 
 	const incrementRating = () => {
@@ -98,3 +98,5 @@ export default function ProductDetails({ navigation }) {
 		</View>
 	);
 }
+
+export default ProductDetails;

@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Mens Casual Premium Slim Fit T-Shirts",
+  "supplier": "Playall Interiors",
+  "price": "1851.37",
+  "imageUrl": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+  "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+  "productLocation": "India, Delhi"
+}
+
+###
+
+GET http://localhost:3000/api/products HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/products/64de20cb3557d1ae5c5bd50c HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/products/search/Slim-fitting HTTP/1.1

@@ -6,7 +6,7 @@ import { Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { COLORS, SIZES } from '../../constants/theme';
 import styles from './welcome.style';
 
-export default function Welcome() {
+function Welcome() {
 	const navigation = useNavigation();
 
 	return (
@@ -37,3 +37,5 @@ export default function Welcome() {
 		</View>
 	);
 }
+
+export default Welcome;

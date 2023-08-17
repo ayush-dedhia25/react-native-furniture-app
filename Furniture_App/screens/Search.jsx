@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS, SIZES } from '../constants/theme';
 import styles from './styles/search.style';
 
-export default function Search() {
+function Search() {
 	return (
 		<SafeAreaView>
 			<View style={styles.searchContainer}>
@@ -30,3 +30,5 @@ export default function Search() {
 		</SafeAreaView>
 	);
 }
+
+export default Search;

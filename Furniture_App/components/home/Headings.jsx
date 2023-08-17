@@ -5,7 +5,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { COLORS } from '../../constants/theme';
 import styles from './styles/heading.style';
 
-export default function Headings() {
+function Headings() {
 	return (
 		<View>
 			<View style={styles.container}>
@@ -19,3 +19,5 @@ export default function Headings() {
 		</View>
 	);
 }
+
+export default Headings;

@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Carousel, Headings, ProductRow, Welcome } from '../components';
 import styles from './styles/home.style';
 
-export default function Home() {
+function Home() {
 	return (
 		<SafeAreaView>
 			<View style={styles.appBarWrapper}>
@@ -36,3 +36,5 @@ export default function Home() {
 		</SafeAreaView>
 	);
 }
+
+export default Home;

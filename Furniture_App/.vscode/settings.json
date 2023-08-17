@@ -1,43 +1,5 @@
 {
 	"cSpell.words": ["Ayush", "Fontisto", "Ionicons", "linebreak", "offwhite", "Parens"],
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": [
-					"keyword.control.import.js",
-					"keyword.control.from.js",
-					"storage.type.js",
-					"keyword.control.flow.js",
-					"keyword.control.export.js",
-					"keyword.control.default.js",
-					"keyword.control.conditional.js",
-					// --- ReactJavascript ---
-					"keyword.control.import.jsx",
-					"keyword.control.from.jsx",
-					"storage.type.jsx",
-					"keyword.control.flow.jsx",
-					"keyword.control.export.jsx",
-					"keyword.control.default.jsx",
-					"keyword.control.conditional.jsx",
-					"storage.modifier.async.js.jsx",
-					"storage.type.function.js.jsx"
-				],
-				"settings": {
-					"fontStyle": "italic bold"
-				}
-			},
-			{
-				"scope": [
-					"variable.other.property.js.jsx",
-					"entity.other.attribute-name.js.jsx",
-					"variable.parameter.js.jsx"
-				],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			}
-		]
-	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},

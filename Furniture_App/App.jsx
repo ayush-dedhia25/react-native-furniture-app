@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useLayoutEffect } from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -33,6 +33,10 @@ export default function App() {
 			await SplashScreen.hideAsync();
 		}
 	}, [fontsLoaded]);
+
+	useLayoutEffect(() => {
+		onLayoutRootView();
+	}, []);
 
 	if (!fontsLoaded) return null;
 
